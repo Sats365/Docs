@@ -1,6 +1,6 @@
 ---
 title: Диаграммы diagrams.net
-order: 6
+order: 4
 ---
 
 В статью можно добавить диаграмму, созданную в [diagrams.net](https://www.diagrams.net/) (бывший [draw.io](https://en.wikipedia.org/wiki/Diagrams.net)). А также редактировать его в визуальном редакторе.

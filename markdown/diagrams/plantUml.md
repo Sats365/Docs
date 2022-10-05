@@ -1,6 +1,6 @@
 ---
 title: Диаграммы PlantUML
-order: 2
+order: 1
 ---
 
 [PlantUML](https://plantuml.com/ru/) это удобный инстумент для создания диаграмм. Он поддерживает разные форматы -- от PUML до SDL и JSON Data. Полный список форматов можно посмотреть [тут](https://plantuml.com/ru/guide).
