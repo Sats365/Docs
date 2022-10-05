@@ -1,0 +1,37 @@
+$fields:
+    CommonField:
+        title: title
+        description: commonField
+        sqlType: char
+Contract:
+    title: Договор
+    description: Базовая **сущность** для всех *договоров*.
+        Содержит общие поля
+    fields:
+        CommonField: # Поле берется полностю из $fields
+        ID:
+            sqlType: int
+            primary: true
+        Number:
+            title: Номер договора
+            sqlType: varchar(100)
+            nullable: false
+        ID_Author:
+            title: Кем создано
+            refObject: User
+            nullable: false
+        ID_Contractor:
+            refObject: Contractor
+            sqlType: int
+User:
+    title: Пользователь
+    fields:
+        CommonField: # Поле из $fields с новым title
+            title: newTitle
+        Login:
+            title: Логин
+            sqlType: varchar(100)
+            nullable: false
+        Email:
+            title: E-mail
+            sqlType: varchar(1000)
