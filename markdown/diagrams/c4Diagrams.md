@@ -1,6 +1,6 @@
 ---
 title: C4 Structurizr
-order: 2
+order: 1
 ---
 
 Для описания моделей [C4](https://c4model.com/) можно использовать формат [PlantUML с расширением C4](https://github.com/plantuml-stdlib/C4-PlantUML).

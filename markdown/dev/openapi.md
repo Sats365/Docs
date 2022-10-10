@@ -1,6 +1,6 @@
 ---
 title: OpenAPI
-order: 2
+order: 1
 terms:
   openapi:
     title: OpenAPI
