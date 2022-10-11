@@ -2,7 +2,6 @@
 title: ER-диаграммы
 order: 3
 ---
-
 Данные диаграммы необходимы для описание структуры БД.
 Для вставки ER-диаграммы служит конструкция `[db-diagram:<путь>]`, где:
 
@@ -93,7 +92,7 @@ Contractor:
     tags: onlytitle
 ```
 
-Результат использования `[db-diagram:./resources/diagram.yaml:-hidden,#onlytitle]`\:
+Результат использования `[db-diagram:./resources/diagram.yaml:-hidden,#onlytitle]`:
 
 ---
 
