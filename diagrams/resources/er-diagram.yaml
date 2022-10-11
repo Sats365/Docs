@@ -1,4 +1,4 @@
-schema: ../../dev/schema.yaml
+schema: ../../markdown/dev/schema.yaml
 tables:
     Contract:
         position: 100, 100
