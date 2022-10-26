@@ -5,7 +5,6 @@ refs:
   drawio: /diagrams/drawio
 private:
   - RB
-  - stanislav.yargunkin@ics-it.ru
 ---
 
 Для написания статей используется специальный язык разметки [term:md].
