@@ -1,5 +1,5 @@
 ---
-title: Новая Разметка
+title: Новый Раздел
 order: 2
 refs:
   drawio: /diagrams/drawio
