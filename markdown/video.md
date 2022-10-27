@@ -24,3 +24,17 @@ private: true
 **Результат:**
 
 [video:sample-mp4-file.mp4:Очень интересное видео]
+
+[ActivePresenter](https://atomisystems.com/download/)
+
+[Root](.../markdown/variables.md)
+
+[Context](./variables.md)
+
+[Root](.../markdown/variables)
+
+[Context](./variables)
+
+[Root](.../markdown/.category.yaml)
+
+[Context](./.category.yaml)
