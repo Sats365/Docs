@@ -9,7 +9,7 @@ variables:
 order: 3
 private:
   - ekaterina.pavlova@ics-it.ru
-  - stanislav.yargunkin@ics-it.ru
+  # - stanislav.yargunkin@ics-it.ru
 ---
 
 Для создания переменных используется конструкция `{% ${имя_переменной} %}`. Переменная идентифицируется по значению `имя переменной` из описания статьи, либо из YAML-файлов категорий `.category.yaml` или каталога `.doc-root.yaml`.
