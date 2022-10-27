@@ -1,5 +1,5 @@
 ---
-title: Новый Раздел
+title: Раздел
 order: 2
 refs:
   drawio: /diagrams/drawio
