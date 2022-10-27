@@ -8,6 +8,7 @@ variables:
     work: 65%
 order: 3
 private:
+  - ekaterina.pavlova@ics-it.ru
   - stanislav.yargunkin@ics-it.ru
 ---
 

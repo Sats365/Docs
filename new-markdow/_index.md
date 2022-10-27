@@ -4,7 +4,8 @@ order: 2
 refs:
   drawio: /diagrams/drawio
 private:
-  - RB
+  - ekaterina.pavlova@ics-it.ru
+  - stanislav.yargunkin@ics-it.ru
 ---
 
 Для написания статей используется специальный язык разметки [term:md].

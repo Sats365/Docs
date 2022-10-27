@@ -1,7 +1,6 @@
 ---
 title: Видео
 order: 1
-private: true
 ---
 
 Для того, чтобы разместить видео в статье, в первую очередь нужно его разместить в SharePoint по следующей [ссылке](https://icsitru.sharepoint.com/sites/docreader9/Shared%20Documents/Forms/AllItems.aspx).
@@ -23,4 +22,4 @@ private: true
 
 **Результат:**
 
-[video:sample-mp4-file.mp4:Очень интересное видео]
+<!-- [video:sample-mp4-file.mp4:Очень интересное видео] -->
