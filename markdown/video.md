@@ -4,37 +4,28 @@ order: 1
 private: true
 ---
 
-Для того, чтобы разместить видео в статье, в первую очередь нужно его разместить в SharePoint по следующей [ссылке](https://icsitru.sharepoint.com/sites/docreader9/Shared%20Documents/Forms/AllItems.aspx).
+[http](https://atomisystems.com/download/)
 
-Порядок действий:
+[.variables.md](./variables.md)
 
-1. Создайте директорию в корневой директории SharePoint. Имя этой директории должно быть указано в `.doc-root.yaml` файле вашего каталога, в качестве свойства `sharePointDirectory`.
-2. Разместите файл в SharePoint. Путь к файлу должен совпадать с путем к статье из вашей корневой категории (категории, где располагается `.doc-root.yaml`).
-   Пример: путь до статьи -- `docs/markdown/<статья>`, где docs -- это корневая категория, тогда путь в SharePoint будет -- `<sharePointDirectory>/markdown/<файл_видео>`.
-3. Теперь, чтобы отобразить видео в статье, добавьте в статью следующую строку: `[video:<имя_файла>:<описание>]`, где `имя_файла` -- это имя файла с видео с расширением, `описание` -- текст, который будет выводиться под видео.
+[.variables](./variables.md)
 
-:::info
-Для записи скринкастов вы можете воспользоваться [ActivePresenter](https://atomisystems.com/download/)
-:::
+[..drawio.md](../diagrams/drawio.md)
 
-### Пример использования
+[..drawio.md](../diagrams/drawio)
 
-`[video:sample-mp4-file.mp4:Очень интересное видео]`
+[...variables.md](.../markdown/variables.md)
 
-**Результат:**
+[...variables](.../markdown/variables)
 
-[video:sample-mp4-file.mp4:Очень интересное видео]
+[...er-diagram.yaml](.../diagrams/resources/er-diagram.yaml)
 
-[ActivePresenter](https://atomisystems.com/download/)
+[..er-diagram.yaml](../diagrams/resources/er-diagram.yaml)
 
-[Root](.../markdown/variables.md)
+[diagrams](../diagrams)
 
-[Context](./variables.md)
+[diagrams_index](../diagrams/_index.md)
 
-[Root](.../markdown/variables)
+[Context](./variables#пример-использования)
 
-[Context](./variables)
-
-[Root](.../markdown/.category.yaml)
-
-[Context](./.category.yaml)
+[...#link](.../markdown/variables.md#пример-использования)
