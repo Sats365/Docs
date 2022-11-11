@@ -4,7 +4,7 @@ order: 1
 ---
 Для описания моделей [C4](https://c4model.com/) можно использовать формат [PlantUML с расширением C4](https://github.com/plantuml-stdlib/C4-PlantUML).
 
-Однако для полного описания сложных схем больше подходит специальный формат [Structurizr DSL](https://structurizr.com/). Он более компактный и наглядный, тажке предоставляет возможность описывать всю архитектуру в одном файле. А для пользователя дает возможность интерактивно просматривать диаграмму, "проваливаясь" по иерархии вниз.
+Однако для полного описания сложных схем больше подходит специальный формат [Structurizr DSL](https://structurizr.com/). Он более компактный и наглядный, тажке предоставляет возможность описывать всю архитектуру в одном файле. А для пользователя дает возможность интерактивно просматривать диаграмму, «проваливаясь» по иерархии вниз.
 
 ### Как использовать
 
@@ -27,15 +27,15 @@ workspace {
 
 ```
 model {
-    user = person "User"
-    softwareSystem = softwareSystem "Software System" {
+    user = person «User»
+    softwareSystem = softwareSystem «Software System» {
     }
 
-    user -> softwareSystem "Uses"
+    user -> softwareSystem «Uses»
 }
 
 views {
-    systemContext softwareSystem "Diagram1" {
+    systemContext softwareSystem «Diagram1» {
         include *
         autoLayout
     }
@@ -65,9 +65,9 @@ views {
 
 В статье отобразится:
 
-{%c4-diagram path="./resources/c4DiagramTest.dsl" /%}
+{%c4-diagram path=«./resources/c4DiagramTest.dsl» /%}
 
 C4-диаграммы позволяют использовать вложенные диаграммы. В примере ниже обратите внимание на элементы с подчеркиванием, на них можно нажать:
 
-{%c4-diagram path="./resources/c4DiagramTestNested.dsl" /%}
+{%c4-diagram path=«./resources/c4DiagramTestNested.dsl» /%}
 ```
