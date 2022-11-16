@@ -1,6 +1,6 @@
 ---
 title: ДиаграммыMOVE
-order: 6
+order: 4
 ---
 
 ![](./resources/drawio.svg)
