@@ -6,15 +6,15 @@ private: true
 
 [http](https://atomisystems.com/download/)
 
-[.variables.md](./variables.md)
+[.variables.md](./cut.md)
 
-[.variables](./variables.md)
+[.variables](./cut.md)
 
 [..drawio.md](../diagrams/drawio.md)
 
 [..drawio.md](../diagrams/drawio)
 
-[...variables.md](.../markdown/variables.md)
+[...variables.md](.../markdown/variables/_index.md)
 
 [...variables](.../markdown/variables)
 
@@ -28,4 +28,4 @@ private: true
 
 [Context](./variables#пример-использования)
 
-[...#link](.../markdown/variables.md#пример-использования)
+[...#link](.../markdown/variables#пример-использования)
